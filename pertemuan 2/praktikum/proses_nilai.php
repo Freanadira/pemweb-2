@@ -9,9 +9,9 @@ $tugas = $_GET['tugas'];
 
 
 // hitung nilai total (30% uts + 35% uas + 35% tugas)
-$nilai_total = (30/100 * $uts) + (35/100 * $uas) + (35/100 * $tugas);
+$nilai_total = (30 / 100 * $uts) + (35 / 100 * $uas) + (35 / 100 * $tugas);
 
-if($nilai_total > 55){
+if ($nilai_total > 55) {
     $status = 'Lulus';
 } else {
     $status = 'Tidak Lulus';
@@ -23,4 +23,5 @@ echo "<br> Mata kuliah: $matkul";
 echo "<br> Nilai UTS: $uts";
 echo "<br> Nilai UAS: $uas";
 echo "<br> Nilai Tugas: $tugas";
+echo "<br> Nilai Total: $nilai_total";
 echo "<br> Status: $status";
