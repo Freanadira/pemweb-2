@@ -13,8 +13,7 @@
     <h2>Form Nilai Siswa</h2>
     <hr>
 
-
-    <form>
+    <form class="mr-5 ml-5">
         <div class="form-group row">
             <label for="nama" class="col-4 col-form-label">Nama</label>
             <div class="col-8">
