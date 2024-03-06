@@ -7,7 +7,7 @@ $jumlah = $_POST['jumlah'];
 
 // list harga produk
 $harga = [
-    'TV' => 4200000, 'Kulkas' => 3100000, 'Mesin Suci' => 3800000
+    'TV' => 4200000, 'Kulkas' => 3100000, 'Mesin Cuci' => 3800000
 ];
 
 // menghitung total harga

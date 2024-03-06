@@ -34,8 +34,8 @@
                             <label for="produk_1" class="custom-control-label">Kulkas</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input name="produk" id="produk_2" type="radio" class="custom-control-input" value="Mesin Suci" required="required">
-                            <label for="produk_2" class="custom-control-label">Mesin Suci</label>
+                            <input name="produk" id="produk_2" type="radio" class="custom-control-input" value="Mesin Cuci" required="required">
+                            <label for="produk_2" class="custom-control-label">Mesin Cuci</label>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                 <li class="list-group-item active">Daftar Harga</li>
                 <li class="list-group-item">TV: 4.200.000</li>
                 <li class="list-group-item">Kulkas: 3.100.000</li>
-                <li class="list-group-item">Mesin Suci: 3.800.000</li>
+                <li class="list-group-item">Mesin Cuci: 3.800.000</li>
                 <li class="list-group-item active">Harga dapat berubah setiap saat</li>
             </ul>
         </div>
