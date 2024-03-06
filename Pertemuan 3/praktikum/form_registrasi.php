@@ -73,7 +73,7 @@ $domisili = ['Jakarta', 'Depok', 'Bogor', 'Tanggerang', 'Bekasi', 'Lainnya'];
                 <div class="col-8">
                     <?php foreach ($skills as $key => $value) : ?>
                         <div class="custom-control custom-checkbox custom-control-inline">
-                            <input name="skills[]" id="skills_<?php echo $key ?>" type="checkbox" required="required" class="custom-control-input" value="<?php echo $key ?>">
+                            <input name="skills[]" id="skills_<?php echo $key ?>" type="checkbox" " class="custom-control-input" value="<?php echo $key ?>">
                             <label for="skills_<?php echo $key ?>" class="custom-control-label"><?php echo $key ?></label>
                         </div>
                     <?php endforeach; ?>
