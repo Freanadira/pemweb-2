@@ -1,5 +1,4 @@
 <?php
-
 $host = 'localhost';
 $db = 'db_puskesmas';
 $user = 'root';
@@ -14,6 +13,5 @@ $opt = [
     PDO::ATTR_EMULATE_PREPARES => false,
 ];
 
-//buat objek koneksinya
-
+// buat objek koneksinya
 $dbh = new PDO($dsn, $user, $pass, $opt);

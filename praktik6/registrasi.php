@@ -1,8 +1,7 @@
 <?php
-
 $prodi = [
     'SI' => 'Sistem Informasi',
-    'TI' => 'Teknik Informasi',
+    'TI' => 'Teknik Informatika',
     'BD' => 'Bisnis Digital'
 ];
 $skills = [
@@ -11,20 +10,19 @@ $skills = [
     'Javascript' => 20,
     'RWD Bootstrap' => 20,
     'PHP' => 30,
-    'Phyton' => 30,
-    'Java' => 50
+    'Python' => 30,
+    'Java' => 50,
 ];
 $domisili = ['Jakarta', 'Depok', 'Bogor', 'Tanggerang', 'Bekasi', 'Lainnya'];
 
 include_once('top.php');
 include_once('menu.php');
 ?>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <div class="container-fluid px-4">
     <fieldset class="mx-5 border p-4 mt-5">
         <legend>Form Registrasi IT Club</legend>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <form method="POST" action="proses_registrasi.php">
             <div class="form-group row">
@@ -43,8 +41,8 @@ include_once('menu.php');
                 <label class="col-4">Jenis Kelamin</label>
                 <div class="col-8">
                     <div class="custom-control custom-radio custom-control-inline">
-                        <input name="jk" id="jk_0" type="radio" class="custom-control-input" value="Laki - laki" required="required">
-                        <label for="jk_0" class="custom-control-label">Laki - laki</label>
+                        <input name="jk" id="jk_0" type="radio" class="custom-control-input" value="Laki-Laki" required="required">
+                        <label for="jk_0" class="custom-control-label">Laki-Laki</label>
                     </div>
                     <div class="custom-control custom-radio custom-control-inline">
                         <input name="jk" id="jk_1" type="radio" class="custom-control-input" value="Perempuan" required="required">
@@ -67,7 +65,7 @@ include_once('menu.php');
                 <div class="col-8">
                     <?php foreach ($skills as $key => $value) : ?>
                         <div class="custom-control custom-checkbox custom-control-inline">
-                            <input name="skills[]" id="skills_<?php echo $key ?>" type="checkbox" " class=" custom-control-input" value="<?php echo $key ?>">
+                            <input name="skills[]" id="skills_<?php echo $key ?>" type="checkbox" class="custom-control-input" value="<?php echo $key ?>">
                             <label for="skills_<?php echo $key ?>" class="custom-control-label"><?php echo $key ?></label>
                         </div>
                     <?php endforeach; ?>
